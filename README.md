@@ -56,7 +56,7 @@ The output variable `signedReleaseFile` can be used in a release action.
 steps:
   - name: Convert aab to apk
     id: convert_aab
-    uses: mukeshsolanki/bundletool-action@v1.0.0
+    uses: mukeshsolanki/bundletool-action@v1.0.1
     with:
       aabFile: app/build/outputs/bundle/release/app-release.aab
       base64Keystore: ${{ secrets.BASE64_KEY }}
